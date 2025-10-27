@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leave Application</title>
+</head>
+<body>
+  <h2>Leave Application Form</h2>
+  <form action="apply_leave.jsp" method="post">
+    Name: <input type="text" name="employee_name" required><br><br>
+    Leave Type: 
+    <select name="leave_type">
+      <option>Sick Leave</option>
+      <option>Casual Leave</option>
+      <option>Annual Leave</option>
+    </select><br><br>
+    Start Date: <input type="date" name="start_date" required><br><br>
+    End Date: <input type="date" name="end_date" required><br><br>
+    Reason: <textarea name="reason" required></textarea><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
